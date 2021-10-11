@@ -2,9 +2,14 @@
 
 1. Mission Planner installieren: https://ardupilot.org/planner/docs/mission-planner-installation.html
 2. Firmware auf Pixhawk 4 laden: https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html#common-loading-firmware-onto-pixhawk
-3. 
+3. Hardware korrekt anschliessen: https://docs.px4.io/master/en/power_module/holybro_pm07_pixhawk4_power_module.html
 
 # Weitere Schritte
+* Durchgangslöcher bohren
+* Kabel für M6 und M8 anschliessen
+* XT60 bestellen
+* Kunststoffplatte px4 fertigen
+* Verlängerungskabel GPS Modul?
 * Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
 
 # Links
