@@ -9,6 +9,8 @@
 * Kabel für M6 und M8 anschliessen
 * XT60 bestellen
 * Kunststoffplatte px4 fertigen
+* SMA Verlängerungskabel
+* Kabel beschriften
 * Verlängerungskabel GPS Modul?
 * Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
 
