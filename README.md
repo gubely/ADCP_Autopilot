@@ -4,6 +4,12 @@
 2. Firmware auf Pixhawk 4 laden: https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html#common-loading-firmware-onto-pixhawk
 3. Pixhawk korrekt montieren: https://ardupilot.org/rover/docs/common-mounting-the-flight-controller.html
 4. Hardware korrekt anschliessen: https://docs.px4.io/master/en/power_module/holybro_pm07_pixhawk4_power_module.html
+5. Korrekte Orientierung der Hardware sicherstellen (Pfeile): https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
+6. FrSky Fernsteuerung mit Empfänger binden: https://www.youtube.com/watch?v=caHT-QZNliI
+7. Fernsteuerung kalibrieren: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
+8. Interner Beschleunigungssensor (auf Pixhawk 4) kalibrieren: https://ardupilot.org/rover/docs/common-accelerometer-calibration.html
+9. Kompass kalibrieren: https://ardupilot.org/rover/docs/common-compass-calibration-in-mission-planner.html
+
 
 # Hardware Setup
 * Airframe definieren: https://docs.px4.io/v1.9.0/en/airframes/airframe_reference.html
