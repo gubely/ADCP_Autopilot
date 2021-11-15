@@ -9,6 +9,10 @@
 7. Fernsteuerung kalibrieren: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
 8. Interner Beschleunigungssensor (auf Pixhawk 4) kalibrieren: https://ardupilot.org/rover/docs/common-accelerometer-calibration.html
 9. Kompass kalibrieren: https://ardupilot.org/rover/docs/common-compass-calibration-in-mission-planner.html
+10. Motor Konfiguration auf 'Skid Steering' (wie R2D2) stellen:
+    * SERVO1_FUNCTION = 73 (Throttle Left)
+    * SERVO3_FUNCTION = 74 (Throttle Right)
+	* MOT_PWM_TYPE = 0 (Normal)
 
 
 # Hardware Setup
@@ -16,6 +20,7 @@
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
 # Weitere Schritte
+* https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html
 * Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
 * Unmittelbarer nächster Schritt: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
 * Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
