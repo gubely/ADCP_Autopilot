@@ -21,7 +21,11 @@
 
 # Weitere Schritte
 * FRAME_CLASS und FRAME_TYPE prüfen: https://github.com/ArduPilot/MissionPlanner/issues/2673
+* Pre-Arm Safety checks prüfen: https://ardupilot.org/rover/docs/common-prearm-safety-checks.html
+* Arming/Disarming: https://ardupilot.org/rover/docs/arming-your-rover.html
+* Mit Boogieboard parameterset vergleichen: https://ardupilot.org/rover/docs/reference-frames-boogieboard-boat.html
 * Mischer prüfen: https://discuss.ardupilot.org/t/boat-skid-steer-setup-issue/49350
+* Control modes anpassen: https://ardupilot.org/rover/docs/rover-control-modes.html
 * https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html
 * Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
 * Unmittelbarer nächster Schritt: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
@@ -35,6 +39,7 @@
 * Radio Control Systems: https://ardupilot.org/rover/docs/common-rc-systems.html#common-rc-systems
 * Kompatible QX7 Empfänger: https://www.horusrc.com/en/blog/frsky-qx7-compatible-receivers/
 * How to Bind QX7 with FrSky Receiver: https://www.youtube.com/watch?v=caHT-QZNliI
+* Loiter Mode für Boote: https://ardupilot.org/rover/docs/loiter-mode.html
 
 # Bestellen bzw. Organisieren
 * SD Karte!
