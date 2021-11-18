@@ -20,6 +20,8 @@
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
 # Weitere Schritte
+* FRAME_CLASS und FRAME_TYPE prüfen: https://github.com/ArduPilot/MissionPlanner/issues/2673
+* Mischer prüfen: https://discuss.ardupilot.org/t/boat-skid-steer-setup-issue/49350
 * https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html
 * Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
 * Unmittelbarer nächster Schritt: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
