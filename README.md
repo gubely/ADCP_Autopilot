@@ -10,20 +10,20 @@
 8. Fernsteuerung kalibrieren: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
 9. Interner Beschleunigungssensor (auf Pixhawk 4) kalibrieren: https://ardupilot.org/rover/docs/common-accelerometer-calibration.html
 10. Kompass kalibrieren: https://ardupilot.org/rover/docs/common-compass-calibration-in-mission-planner.html
-11. Motor Konfiguration auf 'Skid Steering' (wie R2D2) stellen:
-    * SERVO1_FUNCTION = 73 (Throttle Left)
-    * SERVO3_FUNCTION = 74 (Throttle Right)
-	* MOT_PWM_TYPE = 0 (Normal)
-	* FRAME_CLASS = 2 (Boat)
-	* FRAME_TYPE = 0 (Undefined)
-	* BRD_SAFETYENABLE = 0 (Disabled, kein Notaus)
-	* PILOT_STEER_TYPE = 0 (default, noch unklar)
+11. Motor Konfiguration auf **Skid Steering** (wie R2D2) stellen:
+    * ´SERVO1_FUNCTION´ = 73 (Throttle Left)
+    * ´SERVO3_FUNCTION´ = 74 (Throttle Right)
+	* ´MOT_PWM_TYPE´ = 0 (Normal)
+	* ´FRAME_CLASS´ = 2 (Boat)
+	* ´FRAME_TYPE´ = 0 (Undefined)
+	* ´BRD_SAFETYENABLE´ = 0 (Disabled, kein Notaus)
+	* ´PILOT_STEER_TYPE´ = 0 (default, noch unklar)
 12. Schalter für Arming/Disarming konfigurieren: https://ardupilot.org/rover/docs/arming-your-rover.html
 	* CH7 als Auxiliary Switch einrichten (Channels 1-4, 5 und 8 sind reserviert)
-	* RC7_OPTION = 41
+	* ´RC7_OPTION´ = 41
 13. Pre-Arm Checks konfigurieren: https://ardupilot.org/rover/docs/parameters.html#arming-check
-	* ARMING_CHECK = 1047998 (Pre-Arm Checks der RC Channels werden so deaktiviert).
-14. Unter 'Radio Calibration' kontrollieren, dass alle Switches:
+	* ´ARMING_CHECK´ = 1047998 (Pre-Arm Checks der RC Channels werden so deaktiviert).
+14. Unter **Radio Calibration** kontrollieren, dass alle Switches:
 		* mehr als 1800 anzeigen, wenn HIGH geschaltet.
 		* weniger als 1200 anzeigen, wenn LOW geschaltet.
 15. Tote Zone der Motoren einstellen: https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#minimum-throttle
@@ -34,7 +34,7 @@
 
 # Weitere Schritte
 * https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html
-* Tune CRUISE_SPEED: https://ardupilot.org/rover/docs/rover-tuning-process.html#tune-the-speed-and-throttle-controller
+* Tune ´CRUISE_SPEED´: https://ardupilot.org/rover/docs/rover-tuning-process.html#tune-the-speed-and-throttle-controller
 * Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
 * Power Setup kalibrieren: https://docs.qgroundcontrol.com/master/en/SetupView/Power.html
 
@@ -45,7 +45,7 @@
 
 ## v01
 * Erste funktionierende Konfiguration
-* Tote Zone der Motoren eingestellt (MOT_MIN_THR = 12).
+* Tote Zone der Motoren eingestellt (´MOT_MIN_THR´ = 12).
 
 # Links
 * Glossar: https://ardupilot.org/planner/docs/common-glossary.html#common-glossary
@@ -60,6 +60,7 @@
 * Control modes anpassen: https://ardupilot.org/rover/docs/rover-control-modes.html
 * Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
 * Motorenregler Quark Plasma Monster Hybrid: http://www.offroad-cult.org/Board/quark-plasma-monster-hybrid-180a-regler-details-t20608.html
+* Zugelassene Sendeleistung für Telemetrie: https://www.ofcomnet.ch/api/rir/1021
 
 # Bestellen bzw. Organisieren
 * SD Karte!
