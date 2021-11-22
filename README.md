@@ -17,30 +17,35 @@
 	* FRAME_CLASS = 2 (Boat)
 	* FRAME_TYPE = 0 (Undefined)
 	* BRD_SAFETYENABLE = 0 (Disabled, kein Notaus)
-
-12. Arming/Disarming konfigurieren: https://ardupilot.org/rover/docs/arming-your-rover.html
+	* PILOT_STEER_TYPE = 0 (default, noch unklar)
+12. Schalter für Arming/Disarming konfigurieren: https://ardupilot.org/rover/docs/arming-your-rover.html
 	* CH7 als Auxiliary Switch einrichten (Channels 1-4, 5 und 8 sind reserviert)
 	* RC7_OPTION = 41
-13. Unter Radio Calibration kontrollieren, dass alle Switches:
+13. Pre-Arm Checks konfigurieren: https://ardupilot.org/rover/docs/parameters.html#arming-check
+	* ARMING_CHECK = 1047998 (Pre-Arm Checks der RC Channels werden so deaktiviert).
+14. Unter 'Radio Calibration' kontrollieren, dass alle Switches:
 		* mehr als 1800 anzeigen, wenn HIGH geschaltet.
 		* weniger als 1200 anzeigen, wenn LOW geschaltet.
-		
+15. Tote Zone der Motoren einstellen: https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#minimum-throttle
+	
 # Hardware Setup
 * Airframe definieren: https://docs.px4.io/v1.9.0/en/airframes/airframe_reference.html
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
 # Weitere Schritte
-- [x] FRAME_CLASS und FRAME_TYPE prüfen: https://github.com/ArduPilot/MissionPlanner/issues/2673
-- [x] Pre-Arm Safety checks prüfen: https://ardupilot.org/rover/docs/common-prearm-safety-checks.html
-* Arming/Disarming: https://ardupilot.org/rover/docs/arming-your-rover.html
-* Mit Boogieboard parameterset vergleichen: https://ardupilot.org/rover/docs/reference-frames-boogieboard-boat.html
-* Mischer prüfen: https://discuss.ardupilot.org/t/boat-skid-steer-setup-issue/49350
-* Control modes anpassen: https://ardupilot.org/rover/docs/rover-control-modes.html
 * https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html
-* Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
-* Unmittelbarer nächster Schritt: https://ardupilot.org/rover/docs/common-radio-control-calibration.html
+* Tune CRUISE_SPEED: https://ardupilot.org/rover/docs/rover-tuning-process.html#tune-the-speed-and-throttle-controller
 * Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
 * Power Setup kalibrieren: https://docs.qgroundcontrol.com/master/en/SetupView/Power.html
+
+# Missions
+* Auto Mode einstellen: https://ardupilot.org/rover/docs/auto-mode.html
+
+# Konfiguration
+
+## v01
+* Erste funktionierende Konfiguration
+* Tote Zone der Motoren eingestellt (MOT_MIN_THR = 12).
 
 # Links
 * Glossar: https://ardupilot.org/planner/docs/common-glossary.html#common-glossary
@@ -50,6 +55,11 @@
 * Kompatible QX7 Empfänger: https://www.horusrc.com/en/blog/frsky-qx7-compatible-receivers/
 * How to Bind QX7 with FrSky Receiver: https://www.youtube.com/watch?v=caHT-QZNliI
 * Loiter Mode für Boote: https://ardupilot.org/rover/docs/loiter-mode.html
+* Boogieboard Referenz: https://ardupilot.org/rover/docs/reference-frames-boogieboard-boat.html
+* Skid Steering Setup (PILOT_STEER_TYPE = 3): https://discuss.ardupilot.org/t/boat-skid-steer-setup-issue/49350
+* Control modes anpassen: https://ardupilot.org/rover/docs/rover-control-modes.html
+* Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
+* Motorenregler Quark Plasma Monster Hybrid: http://www.offroad-cult.org/Board/quark-plasma-monster-hybrid-180a-regler-details-t20608.html
 
 # Bestellen bzw. Organisieren
 * SD Karte!
