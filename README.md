@@ -38,6 +38,7 @@
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
 # Weitere Schritte
+* https://ardupilot.org/rover/docs/rover-tuning-throttle-and-speed.html
 * Tune `CRUISE_SPEED`: https://ardupilot.org/rover/docs/rover-tuning-process.html#tune-the-speed-and-throttle-controller
 * Power Setup kalibrieren: https://docs.qgroundcontrol.com/master/en/SetupView/Power.html
 
