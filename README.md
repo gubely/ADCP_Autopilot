@@ -30,7 +30,7 @@
 16. Tote Zone der Motoren einstellen: https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#minimum-throttle
 17. Telemetry Radio v3 aufsetzen:
 	* Telemetry Radio v3 mit USB verbinden.
-	* Falls Modul nicht als COMport im Gerätemanager erscheint: Treiber `CDM212364_Setup.exe` installieren (Ordner `ADCP_Autopilot\src\telemetry_radio_v3_win_driver`)
+	* Falls Modul nicht als COMport im Gerätemanager erscheint: Treiber `CDM212364_Setup.exe` installieren (Ordner `...\src\telemetry_radio_v3_win_driver`)
 	* Mit Modul verbinden: https://ardupilot.org/copter/docs/common-configuring-a-telemetry-radio-using-mission-planner.html
 	* Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
 
@@ -53,8 +53,8 @@
 * Tote Zone der Motoren eingestellt (`MOT_MIN_THR` = 12).
 
 ## v02
-* Flugmodi von CH8 neu eingestellt, dass Mode 6 = `Acro` ist.
-* CH9 als AUX function für `LearnCruise` eingestellt.
+* Flugmodi von CH8 neu eingestellt, dass `Flight Mode 6` = Acro ist.
+* `CH9` als AUX function für `LearnCruise` eingestellt.
 * RC Calibration nochmals ausgeführt.
 
 
