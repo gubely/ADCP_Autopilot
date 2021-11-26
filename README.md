@@ -21,18 +21,19 @@
 12. Schalter für Arming/Disarming konfigurieren: https://ardupilot.org/rover/docs/arming-your-rover.html
 	* CH7 als Auxiliary Switch einrichten (Channels 1-4, 5 und 8 sind reserviert)
 	* `RC7_OPTION` = 41
-13. Pre-Arm Checks konfigurieren: https://ardupilot.org/rover/docs/parameters.html#arming-check
+13. **Flugmodi** einstellen: https://ardupilot.org/rover/docs/common-rc-transmitter-flight-mode-configuration.html
+14. Pre-Arm Checks konfigurieren: https://ardupilot.org/rover/docs/parameters.html#arming-check
 	* `ARMING_CHECK` = 1047998 (Pre-Arm Checks der RC Channels werden so deaktiviert).
-14. Unter **Radio Calibration** kontrollieren, dass alle Switches:
+15. Unter **Radio Calibration** kontrollieren, dass alle Switches:
 	* mehr als 1800 anzeigen, wenn HIGH geschaltet.
 	* weniger als 1200 anzeigen, wenn LOW geschaltet.
-15. Tote Zone der Motoren einstellen: https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#minimum-throttle
-16. Telemetry Radio v3 aufsetzen:
+16. Tote Zone der Motoren einstellen: https://ardupilot.org/rover/docs/rover-motor-and-servo-configuration.html#minimum-throttle
+17. Telemetry Radio v3 aufsetzen:
 	* Telemetry Radio v3 mit USB verbinden.
 	* Falls Modul nicht als COMport im Gerätemanager erscheint: Treiber `CDM212364_Setup.exe` installieren (Ordner `ADCP_Autopilot\src\telemetry_radio_v3_win_driver`)
 	* Mit Modul verbinden: https://ardupilot.org/copter/docs/common-configuring-a-telemetry-radio-using-mission-planner.html
 	* Autopilot mit Telemetrie Modul verbinden: https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html
-	
+
 # Hardware Setup
 * Airframe definieren: https://docs.px4.io/v1.9.0/en/airframes/airframe_reference.html
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
@@ -48,8 +49,14 @@
 # Konfiguration
 
 ## v01
-* Erste funktionierende Konfiguration
+* Erste funktionierende Konfiguration.
 * Tote Zone der Motoren eingestellt (`MOT_MIN_THR` = 12).
+
+## v02
+* Flugmodi von CH8 neu eingestellt, dass Mode 6 = `Acro` ist.
+* CH9 als AUX function für `LearnCruise` eingestellt.
+* RC Calibration nochmals ausgeführt.
+
 
 # Links
 * Glossar: https://ardupilot.org/planner/docs/common-glossary.html#common-glossary
