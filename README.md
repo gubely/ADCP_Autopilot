@@ -11,8 +11,8 @@
 9. Interner Beschleunigungssensor (auf Pixhawk 4) kalibrieren: https://ardupilot.org/rover/docs/common-accelerometer-calibration.html
 10. Kompass kalibrieren: https://ardupilot.org/rover/docs/common-compass-calibration-in-mission-planner.html
 11. Motor Konfiguration auf **Skid Steering** (wie R2D2) stellen:
-    * `SERVO1_FUNCTION` = 73 (Throttle Left)
-    * `SERVO3_FUNCTION` = 74 (Throttle Right)
+    * `SERVO2_FUNCTION` = 73 (Throttle Left)
+    * `SERVO4_FUNCTION` = 74 (Throttle Right)
 	* `MOT_PWM_TYPE` = 0 (Normal)
 	* `FRAME_CLASS` = 2 (Boat)
 	* `FRAME_TYPE` = 0 (Undefined)
@@ -38,7 +38,14 @@
 * Airframe definieren: https://docs.px4.io/v1.9.0/en/airframes/airframe_reference.html
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
-# Weitere Schritte
+# Dokumentation - Weitere Schritte
+* Schema zeichnen (mit draw.io?)
+* Buchhaltung im Anhang aufführen
+* Gantt Chart fertigstellen
+* Ausblick und Fazit fertigstellen
+* Methodik?
+
+# Autopilot - Weitere Schritte
 * https://ardupilot.org/rover/docs/rover-tuning-throttle-and-speed.html
 * Tune `CRUISE_SPEED`: https://ardupilot.org/rover/docs/rover-tuning-process.html#tune-the-speed-and-throttle-controller
 * Power Setup kalibrieren: https://docs.qgroundcontrol.com/master/en/SetupView/Power.html
@@ -51,6 +58,7 @@
 
 * Auto Mode einstellen: https://ardupilot.org/rover/docs/auto-mode.html
 * https://ardupilot.org/rover/docs/learning-a-mission.html
+
 # Konfiguration
 
 ## v01
@@ -61,7 +69,6 @@
 * Flugmodi von CH8 neu eingestellt, dass `Flight Mode 6` = Acro ist.
 * `CH9` als AUX function für `LearnCruise` eingestellt.
 * RC Calibration nochmals ausgeführt.
-
 
 # Links
 * Glossar: https://ardupilot.org/planner/docs/common-glossary.html#common-glossary
