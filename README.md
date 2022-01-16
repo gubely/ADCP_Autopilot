@@ -39,11 +39,8 @@
 * Verbindung zwischen PM und Flightcontroller: https://docs.px4.io/v1.9.0/en/assembly/quick_start_pixhawk4.html
 
 # Dokumentation - Weitere Schritte
-* Schema zeichnen (mit draw.io?)
 * Buchhaltung im Anhang aufführen
 * Gantt Chart fertigstellen
-* Ausblick und Fazit fertigstellen
-* Methodik?
 
 # Autopilot - Weitere Schritte
 * https://ardupilot.org/rover/docs/rover-tuning-throttle-and-speed.html
@@ -84,10 +81,3 @@
 * Firmware von Empfänger flashen? https://www.youtube.com/watch?v=eYVk2lWPJxU
 * Motorenregler Quark Plasma Monster Hybrid: http://www.offroad-cult.org/Board/quark-plasma-monster-hybrid-180a-regler-details-t20608.html
 * Zugelassene Sendeleistung für Telemetrie: https://www.ofcomnet.ch/api/rir/1021
-
-# Bestellen bzw. Organisieren
-* SD Karte!
-* Natoknochen
-* 10 Pin Kabel
-* Antenne für QX7
-* USB Mini Kabel
